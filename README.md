@@ -195,15 +195,4 @@ smart_agriculture/
 
 [Link to demo video if available]
 
-## 📝 License
 
-This project is created for educational purposes.
-
-## 📞 Contact & Support
-
-For questions or issues, contact the project group members.
-
----
-
-**Last Updated:** May 18, 2026  
-**Deadline:** May 19, 2026
