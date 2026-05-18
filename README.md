@@ -154,19 +154,6 @@ smart_agriculture/
 **Issue:** "Module not found"
 - **Solution:** Run `pip install -r requirements.txt` and ensure virtual environment is activated
 
-## 📸 Screenshots
-
-- Login page
-- ![alt text](<Screenshot 2026-05-18 222751.png>)
-- Dashboard
-- ![alt text](image.png)
-- Recommendation form
-- ![alt text](image-1.png)
-- Results page
-- ![alt text](image-2.png)
-- History page
-- ![alt text](image-3.png)
-
 ## 🎥 Demo Video
 
 https://youtu.be/ORKGJUj7wNE
@@ -174,12 +161,3 @@ https://youtu.be/ORKGJUj7wNE
 ## 📝 License
 
 This project is created for educational purposes.
-
-## 📞 Contact & Support
-
-For questions or issues, contact the project group members.
-
----
-
-**Last Updated:** May 18, 2026  
-**Deadline:** May 19, 2026
