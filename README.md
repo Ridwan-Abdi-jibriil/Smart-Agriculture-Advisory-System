@@ -48,31 +48,16 @@ Smart Agriculture is a Flask-based web application that leverages Google's Gemin
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/smart_agriculture.git
+git clone https://github.com/Ridwan-Abdi-jibriil/smart_agriculture.git
 cd smart_agriculture
 ```
 
-### Step 2: Create Virtual Environment
-```bash
-python -m venv venv
-```
-
-**Activate virtual environment:**
-- On Windows:
-  ```bash
-  venv\Scripts\activate
-  ```
-- On macOS/Linux:
-  ```bash
-  source venv/bin/activate
-  ```
-
-### Step 3: Install Dependencies
+### Step 2: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Setup Database
+### Step 3: Setup Database
 
 1. Open MySQL and create the database:
 ```sql
@@ -114,27 +99,22 @@ Update the following in `app.py`:
    mysql -u root -p
    ```
 
-2. **Activate virtual environment** (if not already activated)
-   ```bash
-   venv\Scripts\activate
-   ```
-
-3. **Run the Flask application**
+2. **Run the Flask application**
    ```bash
    python app.py
    ```
 
-4. **Open your browser and navigate to**
+3. **Open your browser and navigate to**
    ```
    http://localhost:5000
    ```
 
-5. **First-time users:**
+4. **First-time users:**
    - Click on "Register" to create an account
    - Enter your details and create a password
    - Login with your credentials
 
-6. **Get Recommendations:**
+5. **Get Recommendations:**
    - Fill in the form with your farm details:
      - Soil Type
      - Weather Conditions
@@ -163,14 +143,6 @@ smart_agriculture/
     └── result.html       # Recommendation results
 ```
 
-## 🔒 Security Notes
-
-⚠️ **Important:** Before pushing to production or public repository:
-1. Remove or regenerate the API key in app.py
-2. Use environment variables for sensitive data (database credentials, API keys)
-3. Implement proper password hashing (bcrypt instead of plain text)
-4. Add HTTPS security
-
 ## 🐛 Troubleshooting
 
 **Issue:** "Cannot connect to MySQL"
@@ -184,26 +156,21 @@ smart_agriculture/
 
 ## 📸 Screenshots
 
-[Add screenshots of your application here showing:]
 - Login page
+- ![alt text](<Screenshot 2026-05-18 222751.png>)
 - Dashboard
+- ![alt text](image.png)
 - Recommendation form
+- ![alt text](image-1.png)
 - Results page
+- ![alt text](image-2.png)
 - History page
+- ![alt text](image-3.png)
 
 ## 🎥 Demo Video
 
-[Link to demo video if available]
+https://youtu.be/ORKGJUj7wNE
 
 ## 📝 License
 
 This project is created for educational purposes.
-
-## 📞 Contact & Support
-
-For questions or issues, contact the project group members.
-
----
-
-**Last Updated:** May 18, 2026  
-**Deadline:** May 19, 2026
